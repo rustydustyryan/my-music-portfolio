@@ -52,7 +52,7 @@ const songsData = [
     artist: "MndBdy feat. David",
     category: "Dark",
     audioSrc: "/songs/Fade.mp3",
-    coverImage: "/images/Rock-3.jpg",
+    coverImage: "/images/rock-3.jpg",
     isFeatured: false, // For featured songs
   },
   {

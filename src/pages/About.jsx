@@ -52,7 +52,7 @@ function About() {
               <li><PiWaveform />Sound Design</li>
             </div>
             <div>
-              <li><MdOutlineQueueMusic style={{ width: '110%' }}/>Composition</li>
+              <li><MdOutlineQueueMusic />Composition</li>
               <li><IoMusicalNotes />Songwriting</li>
               <li><FaGuitar />6 Instrument Musician</li>
               <li><FaCode />Web Development</li>
