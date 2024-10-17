@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import { FaHeadphones } from "react-icons/fa6";
 import { BsHeadphones } from "react-icons/bs";
 import { TbWaveSawTool } from "react-icons/tb";
-import { GiSoundWaves } from "react-icons/gi";
-import { PiWaveformBold } from "react-icons/pi";
 import { PiWaveform } from "react-icons/pi";
 
 const Header = () => {
@@ -12,7 +10,7 @@ const Header = () => {
     <header>
       <Link to='/' className='icon'>
         <FaHeadphones />
-        <PiWaveform />
+        <TbWaveSawTool />
       </Link>
       <h1>Ryan Andersen Music</h1>
       <ul>

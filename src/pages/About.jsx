@@ -5,11 +5,8 @@ import { FaMicrophone } from "react-icons/fa";
 import { BsRecord2 } from "react-icons/bs";
 import { BiSolidEdit } from "react-icons/bi";
 import { RiSoundModuleFill } from "react-icons/ri";
-import { RxMixerVertical } from "react-icons/rx";
 import { FaRecordVinyl } from "react-icons/fa";
-import { PiWaveform } from "react-icons/pi";
-import { GiSoundWaves } from "react-icons/gi";
-import { CiWavePulse1 } from "react-icons/ci";
+import { TbWaveSawTool } from "react-icons/tb";
 import { MdOutlineQueueMusic } from "react-icons/md";
 import { IoMusicalNotes } from "react-icons/io5";
 import { FaGuitar } from "react-icons/fa";
@@ -49,7 +46,7 @@ function About() {
               <li><BiSolidEdit />Editing</li>
               <li><RiSoundModuleFill />Mixing</li>
               <li><FaRecordVinyl />Mastering</li>
-              <li><PiWaveform />Sound Design</li>
+              <li><TbWaveSawTool />Sound Design</li>
             </div>
             <div>
               <li><MdOutlineQueueMusic />Composition</li>
@@ -64,7 +61,7 @@ function About() {
         </div>
         <div className='links'>
           <h2>Links</h2>
-          <p>Contact and follow me through the links below.</p>
+          <p>You can reach me through the links below.</p>
           <ul>
             <li>
               <a href='https://ryandesign.co/' target='_blank' rel='noopener norefferer'><FaMountainSun />Portfolio</a>

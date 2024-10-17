@@ -4,7 +4,7 @@ import { FaMicrophone } from "react-icons/fa";
 import { BiSolidEdit } from "react-icons/bi";
 import { RiSoundModuleFill } from "react-icons/ri";
 import { FaRecordVinyl } from "react-icons/fa";
-import { PiWaveform } from "react-icons/pi";
+import { TbWaveSawTool } from "react-icons/tb";
 import { MdOutlineQueueMusic } from "react-icons/md";
 import { IoMusicalNotes } from "react-icons/io5";
 import { FaGuitar } from "react-icons/fa";
@@ -43,7 +43,7 @@ function Contact() {
               <li><BiSolidEdit />Editing</li>
               <li><RiSoundModuleFill />Mixing</li>
               <li><FaRecordVinyl />Mastering</li>
-              <li><PiWaveform />Sound Design</li>
+              <li><TbWaveSawTool />Sound Design</li>
             </div>
             <div>
               <li><MdOutlineQueueMusic />Composition</li>
@@ -58,7 +58,7 @@ function Contact() {
         </div>
         <div className='links'>
           <h2>Links</h2>
-          <p>Contact and follow me through the links below.</p>
+          <p>Follow to see more of my work.</p>
           <ul>
             <li>
               <a href='https://ryandesign.co/' target='_blank' rel='noopener norefferer'><FaMountainSun />Portfolio</a>
