@@ -510,6 +510,10 @@ audio::-webkit-media-controls-panel {
     padding: 0 .8rem .8rem;
   }
 
+  .categories .active::before {
+    border-radius: 10px;
+  }
+
   .categories button {
     width: 100%;
     margin: 0;
