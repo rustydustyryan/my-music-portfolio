@@ -10,7 +10,8 @@ import { IoMusicalNotes } from "react-icons/io5";
 import { FaGuitar } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
-import { FaPhotoVideo } from "react-icons/fa";
+import { HiPhoto } from "react-icons/hi2";
+import { FaVideo } from "react-icons/fa";
 import { BsCameraFill } from "react-icons/bs";
 import { FaMountainSun } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -38,20 +39,21 @@ function Contact() {
           <h2>Skills</h2>
           <ul>
             <div>
-              <li><FaHeadphones />Audio Production</li>
+            <li><FaHeadphones />Audio Production</li>
               <li><FaMicrophone />Recording</li>
               <li><BiSolidEdit />Editing</li>
               <li><RiSoundModuleFill />Mixing</li>
               <li><FaRecordVinyl />Mastering</li>
               <li><TbWaveSawTool />Sound Design</li>
+              <li><IoMusicalNotes />Songwriting</li>
             </div>
             <div>
-              <li><MdOutlineQueueMusic />Composition</li>
-              <li><IoMusicalNotes />Songwriting</li>
               <li><FaGuitar />6 Instrument Musician</li>
+              <li><MdOutlineQueueMusic />Composition</li>
               <li><FaCode />Web Development</li>
               <li><MdComputer />Graphic Design</li>
-              <li><FaPhotoVideo />Photo/Video Editing</li>
+              <li><HiPhoto />Photo Editing</li>
+              <li><FaVideo />Video Editing</li>
               <li><BsCameraFill />Digital Photography</li>
             </div>
           </ul>

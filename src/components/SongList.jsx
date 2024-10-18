@@ -5,7 +5,7 @@ const SongList = ({ songs, onPlay, selectedCategory }) => {
   return (
     <>
       <div className='fancy-div'>
-        <h4>Category:</h4><h4 className='fancy-title'>{selectedCategory} 
+        <h4>Genre:</h4><h4 className='fancy-title'>{selectedCategory} 
         {/* Songs: {songs.length} */}</h4>
       </div>
       <div className="song-list">

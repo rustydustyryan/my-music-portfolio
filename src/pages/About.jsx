@@ -12,7 +12,8 @@ import { IoMusicalNotes } from "react-icons/io5";
 import { FaGuitar } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
-import { FaPhotoVideo } from "react-icons/fa";
+import { HiPhoto } from "react-icons/hi2";
+import { FaVideo } from "react-icons/fa";
 import { BsCameraFill } from "react-icons/bs";
 import { FaMountainSun } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -25,7 +26,7 @@ function About() {
         <div>
           <h1>About</h1>
           <p>
-            This website is a portfolio for my audio production, recording, and songwriting of over 15 years. I studied Music Recording Technology in college and was awarded a certificate of prociciency in audio production, while getting to work in a multi-million dollar recording studio with top tier equipment and talent. Art, music, and design have been passions of mine for as long as I can remember, and I am pursuing them in a more professional capacity now. If you see or hear anything that I have done and would like to work with me, please don't hesitate to get in touch. There can never be too many artists and passionate people helping each other level up and create something greater than they would be able to on their own!
+            This website is a portfolio for my audio production, recording, and songwriting of over 15 years. I studied Music Recording Technology in college and was awarded a Certificate of Proficiency in audio production, while getting to work in a multi-million dollar recording studio with top tier equipment and talent. Art, music, and design have been passions of mine for as long as I can remember, and I am pursuing them in a more professional capacity now. If you see or hear anything that I have done and would like to work with me, please don't hesitate to get in touch. There can never be too many artists and passionate people helping each other level up and create something greater than they would be able to on their own!
           </p>
           <p>
             Web development is another area of interest for me. I built this website with React, utilizing HTML, CSS, and JavaScript. My design and media expertise is continually growing, and I would love to talk about your creative projects and see where I can help. Thank you for stopping by and I look forward to our next collaboration!
@@ -47,14 +48,15 @@ function About() {
               <li><RiSoundModuleFill />Mixing</li>
               <li><FaRecordVinyl />Mastering</li>
               <li><TbWaveSawTool />Sound Design</li>
+              <li><IoMusicalNotes />Songwriting</li>
             </div>
             <div>
-              <li><MdOutlineQueueMusic />Composition</li>
-              <li><IoMusicalNotes />Songwriting</li>
               <li><FaGuitar />6 Instrument Musician</li>
+              <li><MdOutlineQueueMusic />Composition</li>
               <li><FaCode />Web Development</li>
               <li><MdComputer />Graphic Design</li>
-              <li><FaPhotoVideo />Photo/Video Editing</li>
+              <li><HiPhoto />Photo Editing</li>
+              <li><FaVideo />Video Editing</li>
               <li><BsCameraFill />Digital Photography</li>
             </div>
           </ul>

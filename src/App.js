@@ -13,6 +13,7 @@ import './App.css';
 function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [currentSong, setCurrentSong] = useState(null);
+  const [isFixed, setIsFixed] = useState(true);
 
   // Extract unique categories
   const categories = [...new Set(songsData.map((song) => song.category))];
@@ -25,6 +26,10 @@ function App() {
 
   const handlePlay = (song) => {
     setCurrentSong(song);
+  };
+
+  const handleCollapse = () => {
+    setIsFixed(!isFixed); // Toggle between fixed and collapsed state
   };
 
   return (
@@ -55,7 +60,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           {/* Add more routes as needed */}
         </Routes>
-        <AudioPlayer currentSong={currentSong} />
+        <AudioPlayer 
+          currentSong={currentSong} 
+          isFixed={isFixed} 
+          onCollapse={handleCollapse} />
       </div>
     </Router>
   );
