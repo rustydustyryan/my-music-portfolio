@@ -112,7 +112,7 @@ const songsData = [
   {
     id: 13,
     title: "Too Much",
-    artist: "MndBdy",
+    artist: "MndBdy feat. Jules",
     category: "Alt/Rock",
     audioSrc: "/songs/Too Much.mp3",
     coverImage: "/images/Too Much-1.jpg",
