@@ -67,7 +67,7 @@ const songsData = [
   {
     id: 8,
     title: "What I've Been Doing Wrong",
-    artist: "MndBdy",
+    artist: "MndBdy feat. Evan",
     category: "Chill",
     audioSrc: "/songs/What I've Been Doing Wrong.mp3",
     coverImage: "/images/What I've Been Doing Wrong.jpg",
@@ -233,7 +233,25 @@ const songsData = [
     category: "Chill",
     audioSrc: "/songs/Soon It Will Be Christmas.mp3",
     coverImage: "/images/Soon It Will Be Christmas.jpg",
-    isFeatured: true,
+    isFeatured: false,
+  },
+  {
+    id: 27,
+    title: "Louder",
+    artist: "MndBdy feat. Alex",
+    category: "Pop",
+    audioSrc: "/songs/Louder.mp3",
+    coverImage: "/images/Louder.jpg",
+    isFeatured: false,
+  },
+  {
+    id: 28,
+    title: "Used",
+    artist: "MndBdy feat. Alex",
+    category: "Chill",
+    audioSrc: "/songs/Used.mp3",
+    coverImage: "/images/Used.jpg",
+    isFeatured: false,
   },
 ];
 
