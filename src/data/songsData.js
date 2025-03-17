@@ -8,7 +8,7 @@ const songsData = [
     category: "Pop",
     audioSrc: "/songs/Summer Was.mp3",
     coverImage: "/images/Summer Was-3.jpg",
-    isFeatured: true,
+    isFeatured: false,
   },
   {
     id: 2,
@@ -214,16 +214,7 @@ const songsData = [
     artist: "MndBdy",
     category: "Dark",
     audioSrc: "/songs/Don't Follow Me.mp3",
-    coverImage: "/images/rock-5.jpg",
-    isFeatured: false,
-  },
-  {
-    id: 25,
-    title: "Don't Follow Me – Ryan's Version",
-    artist: "MndBdy",
-    category: "Dark",
-    audioSrc: "/songs/Don't Follow Me Ryan's Version.mp3",
-    coverImage: "/images/Don't Follow Me Ryan's Version.jpg",
+    coverImage: "/images/Don't Follow Me.jpg",
     isFeatured: false,
   },
   {
